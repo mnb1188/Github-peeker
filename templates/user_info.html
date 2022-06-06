@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Github peeker</title>
+{% endblock %}
+
+{% block body %}
+<h1 style="text-align: center" >User Data</h1>
+    <div class="content">
+        <p1 class="description">Login: {{ user.get_login() }}</p1>
+        <br>
+        <br>
+        <p2 class="description">Name: {{ user.get_name() }}</p2>
+        <br>
+        <br>
+        <p3 class="description">Bio: {{ user.get_bio() }}</p3>
+        <br>
+        <br>
+        <p4 class="description">Languages used in repos:</p4>
+            <ul class="description">
+                {% for lang, bytes in lang_stats.items() %}
+                <li class="'desc_lang">{{ lang }}:  {{bytes}} bytes written in all repos</li>
+                {% endfor %}
+            </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="repos">
+        <p5 class="list-title">List of known repositories: </p5>
+        <ul>
+            {% for repo in repos_list.get_repos() %}
+            <li class="list_items">{{ repo.get_name() }}</li>
+            <ul>
+                {% for lang_repr in repo.get_langs().get_languages() %}
+                <li class="list_langs">{{ lang_repr.get_name() }}:  {{ lang_repr.get_n_bytes() }} bytes written</li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+        </ul>
+        
+    </div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Summer e-Xperience Project</title>
+{% endblock %}
+
+{% block body %}
+<div class="'content">
+    <h1 style="text-align: center" >Github peeker</h1>
+        <h2>Enter Github username of a user whose bio you would like to see</h2>
+
+        <div class="form">
+           
+            <form action="/" method="POST">
+                <input type="text" name="login" id="login">
+                <input type="submit" value="Find">
+            </form>
+        </div>
+
+</div>
+{% endblock %}

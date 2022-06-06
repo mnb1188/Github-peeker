@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+.content {
+    width: auto;
+    
+}
+
+.repos {
+    margin: 0 auto;
+    width: auto;
+}
+
+h1 {
+    background-color: aliceblue;
+    text-align: center;
+    border-style: groove;
+    border-width: 5px 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form {
+    margin-left: 800px;
+    margin-right: 800px;
+}
+
+.description {
+    margin-left: 300px;
+    font-size: 25px;
+}
+
+.list-title {
+    margin-left: 300px;
+    font-size: 25px;
+    font-weight: thick;
+}
+
+.list_items {
+    margin-left: 350px;
+    font-size: 25px;
+}
+
+.list_langs {
+    margin-left: 500px;
+    font-size: 15px;
+}
+
+button {
+    margin-left: 1500px;
+}
+
+.desc_lang {
+    margin-left: 350;
+    font-size: 25px;
+}
+
+.desc_list {
+    margin-left: 350;
+    font-size: 25px;
+}
+
+.not_found {
+    margin-left: 350px;
+    font-size: 25px;
+}
