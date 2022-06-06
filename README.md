@@ -42,7 +42,7 @@ localhost:5000/
 ```
 This should display the following page:
 <p align="center">
-          <img width="1500" height="400" src="/resources/index.png">
+          <img width="700" height="400" src="/resources/index.png">
 </p>
 To find a user it is needed to enter hers/his name into the searchbar and press find button:
 <p2 align="center">
