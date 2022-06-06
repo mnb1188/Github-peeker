@@ -10,7 +10,7 @@ In the beginning it was assumed that a potential user would like to access app n
 ## Installation
 After pulling files from Github repository user needs to cd into it's local path
 ```
-cd ~/{some_path}/Github-peeker-main/
+cd ~/{some_path}/Github-peeker/
 ```
 Then it is needed to install required dependencies into virtual enviroment:
 <br>
@@ -42,7 +42,7 @@ localhost:5000/
 ```
 This should display the following page:
 <p align="center">
-          <img width="1800" height="400" src="/resources/index.png">
+          <img width="1500" height="400" src="/resources/index.png">
 </p>
 To find a user it is needed to enter hers/his name into the searchbar and press find button:
 <p2 align="center">
